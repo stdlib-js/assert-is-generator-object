@@ -62,5 +62,5 @@ tape( 'the function returns `false` if not provided a generator object', functio
 // Run generator function tests if environment supports `function*()`...
 
 if ( hasGeneratorsSupport ) {
-	require( './../..2015-generator' ); // eslint-disable-line stdlib/no-unassigned-require
+	require( './es2015-generator' ); // eslint-disable-line stdlib/no-unassigned-require
 }
