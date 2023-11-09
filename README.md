@@ -65,7 +65,7 @@ var isGeneratorObject = require( '@stdlib/assert-is-generator-object' );
 
 Tests if a `value` is a [`generator`][mdn-generator-object] object.
 
-<!-- eslint-disable no-restricted-syntax -->
+<!-- eslint-disable no-restricted-syntax, node/no-unsupported-features/es-syntax -->
 
 ```javascript
 function* generateID() {
@@ -94,7 +94,7 @@ bool = isGeneratorObject( {} );
 
 ## Examples
 
-<!-- eslint-disable no-restricted-syntax -->
+<!-- eslint-disable no-restricted-syntax, node/no-unsupported-features/es-syntax -->
 
 <!-- eslint no-undef: "error" -->
 
