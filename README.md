@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isGeneratorObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-generator-object@esm/index.mjs';
+import isGeneratorObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-generator-object@v0.2.1-esm/index.mjs';
 ```
 
 #### isGeneratorObject( value )
@@ -88,7 +88,7 @@ bool = isGeneratorObject( {} );
 <body>
 <script type="module">
 
-import isGeneratorObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-generator-object@esm/index.mjs';
+import isGeneratorObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-generator-object@v0.2.1-esm/index.mjs';
 
 function* generator() {
     while ( true ) {
